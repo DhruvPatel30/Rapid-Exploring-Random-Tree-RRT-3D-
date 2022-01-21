@@ -21,4 +21,34 @@ the top. The second barrier is offset 250 mm from the first, with an opening wit
 from the bottom. Both windows are squares, 150 mm on a side, and aligned with the centerline of
 the inner chamber, along the axis normal to the barriers.
 
-<img src="images/world.png" width="480"> <img src="images/world_1.png" width="480">
+
+3D view of the world                      |  Side view of the world
+:----------------------------------------:|:-------------------------:
+<img src="images/world.png" width="360">  |  <img src="images/world_1.png" width="360">
+
+## Codes
+1. main.py     - The main python file, which calls the functions.
+2. world.py    - This files creates the 3D environment using matplotlib.
+3. cylinder.py - This file creates the cylindrical can, which needs to be maneuvered in the environment.
+4. RRT_3D.py   - Algorithm for RRT in 3D.
+
+## Images
+### Images of the developed world environment.
+
+3D view of the world                                 |  Side view of the world
+:---------------------------------------------------:|:-------------------------:
+<img src="images/world_cross_view.png" width="480">  |  <img src="images/world_side_view.png" width="480">
+
+### Images of the Rapidly Exploring Random Tree.
+
+RRT front view                                       |  RRT side view 
+:---------------------------------------------------:|:-------------------------:
+<img src="images/RRT_front_view.png" width="480">    |  <img src="images/RRT_side_view.png" width="480">
+
+### Images of the final path.
+
+Final path from front view                           |  Final path from side view 
+:---------------------------------------------------:|:-------------------------:
+<img src="images/path_front_view.png" width="480">    |  <img src="images/path_side_view.png" width="480">
+
+## Demonstration
